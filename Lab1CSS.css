@@ -1,0 +1,58 @@
+a:link, a:visited, a:active { text-decoration: none;
+}
+
+body { background-image: url("Images/PokeBallBackground.jpg");
+	   position: relative;
+	   font-size: 20px;
+	   width: 100%;
+}
+
+h1 { text-align: center;
+}
+
+.leftbox { border: #000000 solid 3px;
+		   background-color: #ffffff;
+		   float: left;
+		   width: 25%;
+		   height: 500px;
+		   margin-left: 20px;
+		   
+}
+
+.typetable { list-style-image: url("Images/Pokeball.png");
+			font-family: Tandysoft;
+}
+
+h3 { text-align: center;
+	font-family: Tandysoft;
+	font-size: 18px;
+
+}
+
+.middlebox {
+			 border: #000000 solid 3px;
+			 background-color: #ffffff;
+			 float: left;
+			 width: 30%;
+			 height: 500px;
+			 margin-left: 110px;
+			 margin-right: 110px;
+
+}
+
+.weaktable { list-style-image: url("Images/PokeCenterOutline2.png");
+			font-family: Tandysoft;
+}
+
+.rightbox { border: #000000 solid 3px;
+			background-color: #ffffff;
+			float: left;
+			width: 25%;
+			height: 500px;
+}
+
+.footer { text-align: center;
+			color: #000000;
+			margin-top: 500px;
+			font-family: "Giddyup Std";
+}
